@@ -3,7 +3,7 @@ A compiler for a subset of C written in C. <br/>
 This is a C to x86_64 assembly compiler. <br/>
 It is structured as a standard 3-phase compiler. That means, it has a very simple lexer, and RD (recursive-descent) parser
 and code generator for x86_64. <br/>
-Thanks to https://github.com/georgeLs for his contribution to the project.
+Thanks to [GeorgeLs](https://github.com/georgeLs) for his contribution to the project.
 
 ## Usage
 To use the compiler, you first have to compile it. You can use the compile.sh script for that. This will create

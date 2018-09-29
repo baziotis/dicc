@@ -1,0 +1,17 @@
+1) As for now, it does not yield an error when I
+tried the ++ operator.
+
+2) A block not part of some statement is causing problems, like:
+int main() {
+	...
+	{
+		res = 1+2;
+	}
+	
+	return 0;
+}
+
+3) a random identifier is causing program to crash:
+...
+another;
+...

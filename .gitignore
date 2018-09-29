@@ -1,0 +1,8 @@
+*.swp
+dicc
+dicc.exe
+.vscode
+test*
+**/test_files
+.objective_files
+*.sln

@@ -34,6 +34,12 @@ Currently, it supports:
 * while loops (`while (exp) { stat1; stat2; ... }`) whith `break` and `continue`
 * Possibly other things that I forget...
 
+Generally, the initial target feature set was one, so that the compiler could compile any assignment 1 from
+the course Introduction to Programming: http://cgi.di.uoa.gr/~ip/ <br/>
+There are still some things missing. The main one is preprocessor support and also some not-so-important features
+(like support for all loop types or else if statements). However, it seems that you can compile any assigment 1 source code
+with little modification.
+
 ## Educational features
 The main goal of this project is to make a descent C compiler written in C, totally from scratch.
 Currently, apart from the heavy commenting, the compiler tries to put a clear boundary between each phase of compilation.
